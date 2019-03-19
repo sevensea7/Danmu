@@ -22,7 +22,7 @@
 // 初始化弹幕
 - (instancetype)initWithComment:(NSString *)comment {
     if (self = [super init]) {
-        self.backgroundColor = [UIColor redColor];
+        self.backgroundColor = [UIColor blueColor];
         self.layer.cornerRadius = 15;
         
         // 计算弹幕的实际宽度
@@ -36,7 +36,7 @@
         self.photoIV.layer.cornerRadius = (PhotoHeight + Padding)/2;
         self.photoIV.layer.borderColor = [UIColor whiteColor].CGColor;
         self.photoIV.layer.borderWidth = 1;
-        self.photoIV.image = [UIImage imageNamed:@"logo.png"];
+        self.photoIV.image = [UIImage imageNamed:@"pika"];
         self.photoIV.backgroundColor = [UIColor whiteColor];
     }
     return self;

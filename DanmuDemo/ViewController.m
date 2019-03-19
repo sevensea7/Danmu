@@ -28,14 +28,14 @@
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     [btn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
-    [btn setTitle:@"start" forState:UIControlStateNormal];
+    [btn setTitle:@"开启弹幕" forState:UIControlStateNormal];
     btn.frame = CGRectMake(100, 100, 100, 40);
     [btn addTarget:self action:@selector(clickBtn) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
     
     btn = [UIButton buttonWithType:UIButtonTypeCustom];
     [btn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
-    [btn setTitle:@"stop" forState:UIControlStateNormal];
+    [btn setTitle:@"关闭弹幕" forState:UIControlStateNormal];
     btn.frame = CGRectMake(250, 100, 100, 40);
     [btn addTarget:self action:@selector(clickStopBtn) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];

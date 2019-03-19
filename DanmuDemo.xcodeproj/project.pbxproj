@@ -17,7 +17,6 @@
 		1F051C561FE254DD00E8A55C /* DanmuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F051C551FE254DD00E8A55C /* DanmuDemoUITests.m */; };
 		1F051C651FE2553900E8A55C /* BulletView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F051C641FE2553900E8A55C /* BulletView.m */; };
 		1F051C681FE2558000E8A55C /* BulletManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F051C671FE2557F00E8A55C /* BulletManager.m */; };
-		1F94BA3E1FE7632800637776 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F94BA3D1FE7632800637776 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +57,6 @@
 		1F051C641FE2553900E8A55C /* BulletView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BulletView.m; sourceTree = "<group>"; };
 		1F051C661FE2557F00E8A55C /* BulletManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BulletManager.h; sourceTree = "<group>"; };
 		1F051C671FE2557F00E8A55C /* BulletManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BulletManager.m; sourceTree = "<group>"; };
-		1F94BA3D1FE7632800637776 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,15 +107,11 @@
 		1F051C301FE254DD00E8A55C /* DanmuDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B91230BC22409D1800AAC0FB /* Bullet */,
 				1F051C311FE254DD00E8A55C /* AppDelegate.h */,
 				1F051C321FE254DD00E8A55C /* AppDelegate.m */,
 				1F051C341FE254DD00E8A55C /* ViewController.h */,
 				1F051C351FE254DD00E8A55C /* ViewController.m */,
-				1F051C631FE2553900E8A55C /* BulletView.h */,
-				1F051C641FE2553900E8A55C /* BulletView.m */,
-				1F051C661FE2557F00E8A55C /* BulletManager.h */,
-				1F051C671FE2557F00E8A55C /* BulletManager.m */,
-				1F94BA3D1FE7632800637776 /* logo.png */,
 				1F051C371FE254DD00E8A55C /* Main.storyboard */,
 				1F051C3A1FE254DD00E8A55C /* Assets.xcassets */,
 				1F051C3C1FE254DD00E8A55C /* LaunchScreen.storyboard */,
@@ -143,6 +137,17 @@
 				1F051C571FE254DD00E8A55C /* Info.plist */,
 			);
 			path = DanmuDemoUITests;
+			sourceTree = "<group>";
+		};
+		B91230BC22409D1800AAC0FB /* Bullet */ = {
+			isa = PBXGroup;
+			children = (
+				1F051C631FE2553900E8A55C /* BulletView.h */,
+				1F051C641FE2553900E8A55C /* BulletView.m */,
+				1F051C661FE2557F00E8A55C /* BulletManager.h */,
+				1F051C671FE2557F00E8A55C /* BulletManager.m */,
+			);
+			path = Bullet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +256,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F94BA3E1FE7632800637776 /* logo.png in Resources */,
 				1F051C3E1FE254DD00E8A55C /* LaunchScreen.storyboard in Resources */,
 				1F051C3B1FE254DD00E8A55C /* Assets.xcassets in Resources */,
 				1F051C391FE254DD00E8A55C /* Main.storyboard in Resources */,
